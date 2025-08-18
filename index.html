@@ -17,13 +17,106 @@
                     ODIN
                 </div>
             </div>
-            <img src="./assets/background.jpg" alt="background image" id="background-img">
-            
+            <img src="./assets/background.jpg" alt="background image" id="background-img">            
         </div>
         <div id="right-background">
-            <p>
-                
-            </p>
+            <div id="text-1">
+                <p>
+                    This is a REAL online service which is TOTALLY SAFE and SECURE! 
+                    Enter your important details below to craft your perfect silly roblox username
+                    Sign up <em>now</em> to get started.
+                </p>
+            </div>
+            <div id="text-2">
+                <p>This is <em>only</em> for the funnies</p>
+            </div>
+
+            <div id="form">
+                <form action="">
+                    <h1>Enter your details below!!!</h1>
+                    <section>
+                        <h2>Contact information</h2>
+                        <fieldset>
+                            <p>
+                                <label for="first-name">
+                                    <span>First Name: </span>
+                                    <input type="text" id="first-name" name="user-first-name" required />
+                                </label>
+                            </p>
+                            <p>
+                                <label for="last-name">
+                                    <span>Last Name: </span>
+                                    <input type="text" id="last-name" name="user-last-name" required />    
+                                </label>            
+                            </p>
+                            <p>
+                                <label for="email">
+                                    <span>Email: </span>
+                                    <input type="email" id="email" name="user-email" required />
+                                </label>
+                            </p>
+                            <p>
+                                <label for="phone">
+                                    <span>Phone Number: </span>
+                                    <input type="tel" id="phone" name="user-number" required />
+                                </label>
+                            </p>
+                            <p>
+                                <label for="mom-number">
+                                    <span>Your Mother's Number (for befriending)*: </span>
+                                    <input type="tel" id="mom-number" name="user-mom-number" required />
+                                </label>
+                            </p>
+                        </fieldset>
+                    </section>
+                    <section>
+                        <h2>Payment information (safe)</h2>
+                        <p>
+                            <label for="card">
+                                <span>Card Type: </span>
+                            </label>
+                            <select name="user-card" id="card">
+                                <option value="visa">Visa</option>
+                                <option value="mc">Mastercard</option>
+                                <option value="rupay">RuPay</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="card-number">
+                                <span>Card Number: </span>
+                                <input type="tel" id="card-number" required />
+                            </label>
+                        </p>
+                        <p>
+                            <label for="expiration">
+                                <span>Expiration Date: </span>
+                            </label>
+                                <input 
+                                    type="text"
+                                    id="expiration"
+                                    name="expiration"
+                                    required
+                                    placeholder="MM/YY"
+                                    pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+                        </p>
+                        <p>
+                            <label for="cvv">
+                                <span>CVV: </span>
+                            </label>
+                            <input 
+                                type="number"
+                                id="cvv"
+                                name="cvv"
+                                required
+                                placeholder="123"
+                                pattern="^([0-9]{3})$" />
+                        </p>
+                    </section>
+                    <p>
+                        <button type="submit">Generate silly username</button>
+                    </p>
+                </form>
+            </div>
         </div>
     </div>
 </body>
