@@ -24,16 +24,6 @@ this project is a lighthearted HTML/CSS form designed for fun, not for actual da
 - **HTML** - form structure
 - **CSS** - styling
 
-## project structure
-```
-/.
-├── assets/ # Optional: images or supporting assets
-├── index.html # Main form HTML
-├── styles.css # Styling rules
-├── script.js # Form logic (username generation)
-└── README.md # This file
-```
-
 ## how to run locally
 1. clone (or download) the repository.
 2. open 'index.html' in your browser.
