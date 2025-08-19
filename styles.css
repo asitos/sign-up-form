@@ -144,6 +144,14 @@ h2 {
     border-color:darkgray;
 }
 
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+}
+
 
 button {
     max-width: 300px;
